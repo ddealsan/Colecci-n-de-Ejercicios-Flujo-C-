@@ -1,16 +1,39 @@
 #include <iostream>
 #include <string>
 #include "matematicas.h"
+#include <sstream>
 using namespace std;
 using namespace Matematicas;
 
 int main()
 { // Ejercicio 1
-    cout << "Suma " << suma(5,3) << endl;
-    cout << "Resta " << resta(5,3) << endl;
-    cout << "Multiplicacion " << multiplicacion(5,3) << endl;
-    cout << "Division " << division(5,3) << endl;
-    cout << "Raiz cuadrada " << raizCuadrada(5) << endl;
-    cout << "Potencia " << potencia(5,3) << endl;
-    cout << "Logaritmo " << logaritmo(5) << endl;
+    int a, b;
+
+    cout << "Ingrese dos numeros para la suma: ";
+    suma(cin, cout);
+    cout << endl;
+
+    cout << "Ingrese dos numeros para la resta: ";
+    resta(cin, cout);
+    cout << endl;
+
+    cout << "Ingrese dos numeros para la multiplicacion: ";
+    multiplicacion(cin, cout);
+    cout << endl;
+
+    cout << "Ingrese dos numeros para la division: ";
+    division(cin, cout);
+    cout << endl;
+
+    cout << "Ingrese un numero para la raiz cuadrada: ";
+    raizCuadrada(cin, cout);
+    cout << endl;
+
+    cout << "Ingrese dos numeros para la potencia: ";
+    potencia(cin, cout);
+    cout << endl;
+
+    cout << "Ingrese un numero para el logaritmo: ";
+    logaritmo(cin, cout);
+    cout << endl;
 }

@@ -4,28 +4,51 @@
 #include <cmath>
 using namespace std;
 
-
 namespace Matematicas {
-    int suma(int a , int b){
+    int suma(istream& in, ostream& out) {
+        int a, b;
+        in >> a >> b;
+        out << a + b;
         return a + b;
     }
-    int resta(int a , int b){
+    int resta(istream& in, ostream& out) {
+        int a, b;
+        in >> a >> b;
+        out << a - b;
         return a - b;
     }
-    int multiplicacion(int a , int b){
+    int multiplicacion(istream& in, ostream& out) {
+        int a, b;
+        in >> a >> b;
+        out << a * b;
         return a * b;
     }
-    double division(int a , int b){
-        return static_cast<double>(a) / b;
+    double division(istream& in, ostream& out) {
+        int a, b;
+        in >> a >> b;
+        double result = static_cast<double>(a) / b;
+        out << result;
+        return result;
     }
-    double raizCuadrada(int a){
-        return sqrt(a);
+    double raizCuadrada(istream& in, ostream& out) {
+        int a;
+        in >> a;
+        double result = sqrt(a);
+        out << result;
+        return result;
     }
-    double potencia(int a , int b){
-        return pow(a,b);
+    double potencia(istream& in, ostream& out) {
+        int a, b;
+        in >> a >> b;
+        double result = pow(a,b);
+        out << result;
+        return result;
     }
-    double logaritmo(int a){
-        return log(a);
+    double logaritmo(istream& in, ostream& out) {
+        int a;
+        in >> a;
+        double result = log(a);
+        out << result;
+        return result;
     }
-
 };
