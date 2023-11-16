@@ -4,7 +4,13 @@ using namespace std;
 using namespace Geometria;
 
 int main() {
-    cout << "El area del circulo es: " << calcularAreaCirculo(5) << endl;
-    cout << "El perimetro del circulo es: " << calcularPerimetroCirculo(5) << endl;
+    cout << "Ingrese el radio del circulo para calcular el area: ";
+    calcularAreaCirculo(cin, cout);
+    cout << endl;
+
+    cout << "Ingrese el radio del circulo para calcular el perimetro: ";
+    calcularPerimetroCirculo(cin, cout);
+    cout << endl;
+
     return 0;
 }
