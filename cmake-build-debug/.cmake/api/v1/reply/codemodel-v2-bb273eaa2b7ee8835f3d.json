@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Colecci-n-de-Ejercicios-Flujo-C-",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "Ejercicio_1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Ejercicio_1-Debug-0c8916c83aea6128b8a3.json",
 					"name" : "Ejercicio_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio_3-Debug-00abfc5ddd213997c061.json",
+					"name" : "Ejercicio_3",
 					"projectIndex" : 0
 				}
 			]

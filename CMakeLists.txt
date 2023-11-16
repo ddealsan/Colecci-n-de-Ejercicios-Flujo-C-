@@ -8,7 +8,8 @@ add_executable(Ejercicio_1
         "Ejercicio 1/matematicas.cpp"
         "Ejercicio 1/matematicas.h"
         "Ejercicio 1/matematicas.cpp"
-        "Ejercicio 1/main.cpp"
-        "Ejercicio 1/matematicas.cpp"
-        "Ejercicio 1/matematicas.h"
 )
+add_executable(Ejercicio_3
+        "Ejercicio 3/main.cpp"
+        "Ejercicio 3/circulo.cpp"
+        "Ejercicio 3/circulo.h")
